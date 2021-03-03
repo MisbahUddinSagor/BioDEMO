@@ -43,7 +43,7 @@ header a,
 .skills h1,
 .work h1,
 .contact h1 {
-    color: #707070;
+    color: #4bf49e;
 }
 
 li {
@@ -87,7 +87,7 @@ span:hover {
 }
 
 span.name {
-    color: #ed5565;
+    color: #4bf49e;
 }
 
 span.m-left {
@@ -103,8 +103,8 @@ span.m-left {
 .text a {
     padding: 12px 25px;
     background-color: none;
-    border: 3px solid #ed5565;
-    color: #ed5565;
+    border: 3px solid #4bf49e;
+    color: #4bf49e;
     font-size: .8rem;
     letter-spacing: 2px;
     position: relative;
@@ -120,7 +120,7 @@ span.m-left {
 
 .text a::before {
     content: '';
-    background-color: #ed5565;
+    background-color: #4bf49e;
     position: absolute;
     left: 0;
     top: 0;
@@ -138,7 +138,7 @@ span.m-left {
 .profile-image img{
     width: 400px;
     height: 600px;
-    margin-top: 50px;
+    margin-top: 20px;
 
 }
 
@@ -220,7 +220,7 @@ div[class^='tag-'] {
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 50%, 0% 0%);
     width: 120px;
     height: 30px;
-    background-color: #1785a7;
+    background-color: #18e231;
     margin-right: 30px;
 }
 
@@ -229,21 +229,21 @@ div[class^='tag-'] p {
     text-align: left;
     padding-left: 10px;
     font-size: 1.1rem;
-    padding-top: 3px;
+    padding-top: 1px;
 }
 
 .progressbar {
     position: relative;
     width: 600px;
     height: 20px;
-    border: 2px solid #48cfad;
+    border: 2px solid #cfec12;
     border-radius: 20px;
     margin-top: 7px;
 }
 
 div[class^='bar-'] {
     position: absolute;
-    background-color: #48cfad;
+    background-color: #cfec12;
     height: 10px;
     border-radius: 20px;
     margin: 2.7px;
@@ -258,10 +258,10 @@ div[class^='bar-'] {
 
 .work-category button {
     text-transform: capitalize;
-    border: 3px solid #ed5565;
+    border: 3px solid #4bf49e;
     padding: 15px 30px;
     border-radius: 50px;
-    color: #ed5565;
+    color: #4bf49e;
     font-size: 1.1rem;
     letter-spacing: 1px;
     background-color: #252627;
@@ -283,7 +283,7 @@ div[class^='category-'] {
 }
 
 .work-category .active {
-    background-color: #ed5565;
+    background-color: #4bf49e;
 }
 
 button.active {
@@ -326,7 +326,7 @@ form textarea {
 
 form input:last-child {
     width: 150px;
-    background-color: #ed5565;
+    background-color: #4bf49e;
     border: none;
     cursor: pointer;
 }
